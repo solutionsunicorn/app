@@ -5,7 +5,6 @@ from flask_cors import CORS
 import tensorflow as tf
 from io import BytesIO
 import base64
-from keras.preprocessing import image
 
 model = tf.keras.models.load_model('model.h5')
 
